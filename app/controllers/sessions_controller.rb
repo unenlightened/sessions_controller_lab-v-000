@@ -3,10 +3,10 @@ class SessionsController < ApplicationController
   end
 
   def create
-    redirect '/'
+    redirect_to '/'
   end
 
   def destroy
-    redirect '/'
+    redirect_to '/'
   end
 end
